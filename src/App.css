@@ -28,6 +28,59 @@
   color: #61dafb;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: saddlebrown;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: saddlebrown;
+}
+
+.menus {
+  display:inline-flex;
+  align-items:center;
+  justify-content:space-around;
+  color:black;
+  padding: 1%;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  display: inline-flex;
+}
+
+/* .menu-items {
+  border: #ffff 2px solid;
+  border-radius: 5px;
+  background-color: white;
+} */
+
+.dropdown {
+  display: none;
+}
+
+.show {
+  display:flex;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 6px;
+  text-align: center;  
+}
+
+ul {
+  list-style-type: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
