@@ -67,7 +67,7 @@ h2 {
 }
 
 .show {
-  display:flex;
+  display: block;
 }
 
 a {
