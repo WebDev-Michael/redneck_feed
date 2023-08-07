@@ -4,10 +4,17 @@
 
 ### Todo: 
 
-* [] Fill out pages folder and files
+* [] Create pages folder and compile corresponding pages: 
+    ## Equine
+    ## Cattle
+    ## Swine
+    ## Poultry
+    ## Sheep and Goat
+    ## Straight Grains
 
-* [] Draft components
+* [] Import Bootstrap and create the following:
+    ## [] Navbar
+    ## [] Feed cards
+    ## [] 
 
-* [] Implement components and routes into App.js
-
-* [] Style website with App.css
+* [] Style website with index.css
