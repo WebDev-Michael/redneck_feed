@@ -1,7 +1,28 @@
 .logo {
-  max-width: 100vw;
+  max-width: 100%
 }
 
 body {
   background: darkslategray;
+}
+
+.card-section {
+  max-width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card-body {
+  text-align: center
 }
