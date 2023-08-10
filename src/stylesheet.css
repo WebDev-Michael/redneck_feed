@@ -1,28 +1,65 @@
 .logo {
-  max-width: 100%
+  max-width: 100%;
 }
 
 body {
   background: darkslategray;
 }
 
+.header {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: black;
+  margin: 15px auto;
+}
+
 .card-section {
-  max-width: 90%;
-  align-items: center;
-  justify-content: center;
+  margin: 2%;
 }
 
 .card {
-  text-align: center;
-  justify-content: center;
-  width: fit-content;
-  height: fit-content;
-  margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  width: 300px;
+  height: 400px;
 }
 
-.card-body {
-  text-align: center
+.centered {
+  text-align: center;
+}
+
+/* custom styles */
+
+.bg-red {
+  background: #660000;
+}
+
+.border {
+  border: 3px black solid;
+  border-radius: 15px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.margin-15 {
+  margin: 15px auto;
+}
+
+.margin-1515 {
+  margin: 15px 15px;
+}
+
+.padding-1515{
+  padding: 15px 15px;
+}
+
+
+.dropdown-item.active{
+  background-color: #660000;
+}
+
+.bold {
+  font-weight: 700;
 }
