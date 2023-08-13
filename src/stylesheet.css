@@ -6,6 +6,10 @@ body {
   background: darkslategray;
 }
 
+h1.header {
+  font-size: 2.5rem;
+}
+
 .header {
   font-size: 1.5rem;
   text-decoration: underline;
