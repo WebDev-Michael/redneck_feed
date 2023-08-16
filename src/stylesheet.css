@@ -1,9 +1,13 @@
 .logo {
-  max-width: 100%;
+  max-width: 98vw;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
-  background: darkslategray;
+  background: #F4E0B9;
 }
 
 h1.header {
@@ -34,7 +38,15 @@ h1.header {
 /* custom styles */
 
 .bg-red {
-  background: #660000;
+  background: #FE0000;
+}
+
+.bg-darkgray {
+  background: #7D7463;
+}
+
+.bg-lightgray {
+  background: #A8A196;
 }
 
 .border {
@@ -62,7 +74,7 @@ h1.header {
 
 
 .dropdown-item.active{
-  background-color: #660000;
+  background-color: #FE0000;
 }
 
 .bold {
