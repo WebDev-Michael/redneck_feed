@@ -1,7 +1,7 @@
 import React from "react";
 import feedBag from "./images/feedBag.png";
 
-export default function Main(props) {
+export default function Home(props) {
   return (
     <>
       <main>
