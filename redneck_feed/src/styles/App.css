@@ -10,6 +10,11 @@ body {
     background: #F4E0B9;
 }
 
+a {
+    color:#FE0000;
+    text-decoration: none;
+}
+
 h1.header {
     font-size: 2.5rem;
 }
@@ -22,7 +27,7 @@ h1.header {
 }
 
 .card-section {
-    margin: 2%;
+    margin: 2% 10%;
 }
 
 .card {

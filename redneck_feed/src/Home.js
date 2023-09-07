@@ -9,12 +9,13 @@ export default function Home(props) {
 
         <div className="centered border padding-1515 margin-1515 bg-darkgray">
           <h1 className="header centered">About Redneck Feed</h1>
-          <p>
+          <h3>
             Serving a 25 mile radius from the heart of Belfair. Grain delivered
             right to your doorstep at an affordable price! Delivered Monday,
-            Wednesday and Friday. Call or text today.
-            <a href="tel:(253) 313-8107"> (253) 313-8107 </a>
-          </p>
+            Wednesday and Friday. Call or text today:
+            <br></br> 
+            <a href="tel:(253) 313-8107">(253) 313-8107 </a>
+          </h3>
         </div>
 
         {/* <!-- Popular feed cards --> */}
