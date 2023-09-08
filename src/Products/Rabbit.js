@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import feedBag from "../images/feedBag.png";
 
 export default function Rabbit() {
-  const [image, setImage] = useState(feedBag);
+  const [image] = useState(feedBag);
 
   return (
     <>
