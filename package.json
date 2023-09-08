@@ -37,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "node": "^20.6.0"
+    "node": "^18.17.1"
   }
 }
