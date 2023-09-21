@@ -1,0 +1,59 @@
+
+[
+    {
+                "id": "g1",
+                "name": "Rolled Barley",
+                "description": "Rolled barley",
+                "pricePerBag": "$20.00",
+                "pricePer20": "$19.00",
+                "pricePer40": "$18.50"
+            },
+            {
+                "id": "g2",
+                "name": "Rolled Corn",
+                "description": "Rolled corn",
+                "pricePerBag": "$20.00",
+                "pricePer20": "$19.00",
+                "pricePer40": "$18.50"
+            },
+            {
+                "id": "g3",
+                "name": "Soybean Meal",
+                "description": "Natural source of protein",
+                "pricePerBag": "$28.00",
+                "pricePer20": "$27.00",
+                "pricePer40": "$26.50"
+            },
+            {
+                "id": "g4",
+                "name": "Whole Barley",
+                "description": "Whole barley",
+                "pricePerBag": "$19.75",
+                "pricePer20": "$18.75",
+                "pricePer40": "$18.25"
+            },
+            {
+                "id": "g5",
+                "name": "Whole Corn",
+                "description": "Whole corn",
+                "pricePerBag": "$19.75",
+                "pricePer20": "$18.75",
+                "pricePer40": "$18.25"
+            },
+            {
+                "id": "g6",
+                "name": "Whole Oats",
+                "description": "Whole oats",
+                "pricePerBag": "$22.50",
+                "pricePer20": "$21.50",
+                "pricePer40": "$21.00"
+            },
+            {
+                "id": "g7",
+                "name": "Whole Wheat",
+                "description": "Whole wheat",
+                "pricePerBag": "$21.25",
+                "pricePer20": "$20.25",
+                "pricePer40": "$19.75"
+            }
+ ]

@@ -1,0 +1,75 @@
+ 
+[
+    {
+                "id": "p1",
+                "name": "All Purpose",
+                "description": "18% protein All purpose poultry feed",
+                "pricePerBag": "$21.75",
+                "pricePer20": "$20.75",
+                "pricePer40": "$20.25"
+            },
+            {
+                "id": "p2",
+                "name": "Broiler Grower",
+                "description": "21% protein medicated feed for meat birds",
+                "pricePerBag": "$25.00",
+                "pricePer20": "$24.00",
+                "pricePer40": "$23.50"
+            },
+            {
+                "id": "p3",
+                "name": "Chick Start",
+                "description": "20% protein Medicated and non-medicated chick start",
+                "pricePerBag": "$23.00",
+                "pricePer20": "$22.00",
+                "pricePer40": "$21.50"
+            },
+            {
+                "id": "p4",
+                "name": "Cracked Corn",
+                "description": "Cracked corn",
+                "pricePerBag": "$20.50",
+                "pricePer20": "$19.50",
+                "pricePer40": "$19.00"
+            },
+            {
+                "id": "p5",
+                "name": "Fowl Power",
+                "description": "Mixed grain and pellet poultry feed",
+                "pricePerBag": "$21.75",
+                "pricePer20": "$20.75",
+                "pricePer40": "$20.25"
+            },
+            {
+                "id": "p6",
+                "name": "Game Bird",
+                "description": "27% protein game bird feed (pellet and crumble available)",
+                "pricePerBag": "$25.00",
+                "pricePer20": "$24.00",
+                "pricePer40": "$23.50"
+            },
+            {
+                "id": "p7",
+                "name": "Layer Ration Complete",
+                "description": " 16% protein Egg Layer blend (pellet and crumble available)",
+                "pricePerBag": "$21.00",
+                "pricePer20": "$20.00",
+                "pricePer40": "$19.50"
+            },
+            {
+                "id": "p8",
+                "name": "Oyster Shell",
+                "description": "Crushed oyster shells",
+                "pricePerBag": "$24.00",
+                "pricePer20": "$23.00",
+                "pricePer40": "$22.50"
+            },
+            {
+                "id": "p9",
+                "name": "Two Way Scratch",
+                "description": "Cracked corn and barley",
+                "pricePerBag": "$21.00",
+                "pricePer20": "$20.00",
+                "pricePer40": "$19.50"
+            }
+ ]
