@@ -52,7 +52,7 @@ const Root = () => {
         <nav class="navbar navbar-expand-lg bg-lightgray sticky-top">
           <div class="container-fluid">
             <Link to="/" class="navbar-brand">
-              Redneck Feed
+              RedNeck Feeds LLC
             </Link>
             <button
               class="navbar-toggler"
