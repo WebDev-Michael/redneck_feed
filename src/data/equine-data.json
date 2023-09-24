@@ -5,7 +5,8 @@
                 "description": "12% protein horse feed",
                 "pricePerBag": "$20.75",
                 "pricePer20": "$19.75",
-                "pricePer40": "$19.25"
+                "pricePer40": "$19.25",
+                "image": "https://i.imgur.com/MNX4MHI.png"
             },
             {
                 "id": "e2",
@@ -13,7 +14,8 @@
                 "description": "Compressed alfalfa hay",
                 "pricePerBag": "$24.25",
                 "pricePer20": "$23.25",
-                "pricePer40": "$22.75"
+                "pricePer40": "$22.75",
+                "image": "https://i.imgur.com/CiR8f6F.png"
             },
             {
                 "id": "e3",
@@ -21,7 +23,8 @@
                 "description": "Pelletized beet pulp",
                 "pricePerBag": "$21.50",
                 "pricePer20": "$20.50",
-                "pricePer40": "$20.00"
+                "pricePer40": "$20.00",
+                "image": "https://i.imgur.com/dPeHMom.png"
             },
             {
                 "id": "e4",
@@ -29,7 +32,8 @@
                 "description": "Rolled corn, oats and barley mixed with molasses",
                 "pricePerBag": "$21.25",
                 "pricePer20": "$20.25",
-                "pricePer40": "$19.75"
+                "pricePer40": "$19.75",
+                "image": "https://i.imgur.com/p1rmRrQ.png"
             },
             {
                 "id": "e5",
@@ -37,7 +41,8 @@
                 "description": "Rolled corn, oats and barley",
                 "pricePerBag": "$21.25",
                 "pricePer20": "$20.25",
-                "pricePer40": "$19.75"
+                "pricePer40": "$19.75",
+                "image": "https://i.imgur.com/p1rmRrQ.png"
             },
             {
                 "id": "e6",
@@ -45,7 +50,8 @@
                 "description": "Specialty supplement for nursing mares and foals",
                 "pricePerBag": "$21.75",
                 "pricePer20": "$20.75",
-                "pricePer40": "$20.25"
+                "pricePer40": "$20.25",
+                "image": "https://i.imgur.com/vDuFJnP.png"
             },
             {
                 "id": "e7",
@@ -53,7 +59,8 @@
                 "description": "High performance trail horse grain",
                 "pricePerBag": "$22.25",
                 "pricePer20": "$21.25",
-                "pricePer40": "$20.75"
+                "pricePer40": "$20.75",
+                "image": "https://i.imgur.com/P0i6SgJ.png"
             },
             {
                 "id": "e8",
@@ -61,7 +68,8 @@
                 "description": "Natural source of fiber and magnesium",
                 "pricePerBag": "$25.00",
                 "pricePer20": "$24.00",
-                "pricePer40": "$23.50"
+                "pricePer40": "$23.50",
+                "image": ""
             },
             {
                 "id": "e9",
@@ -69,7 +77,8 @@
                 "description": "Rolled oats",
                 "pricePerBag": "$23.00",
                 "pricePer20": "$22.00",
-                "pricePer40": "$21.50"
+                "pricePer40": "$21.50",
+                "image": "https://i.imgur.com/vqHiTH0.png"
             },
             {
                 "id": "e10",
@@ -77,7 +86,8 @@
                 "description": "Specialty feed for senior horses",
                 "pricePerBag": "$23.25",
                 "pricePer20": "$22.25",
-                "pricePer40": "$21.75"
+                "pricePer40": "$21.75",
+                "image": "https://i.imgur.com/vtpECT4.png"
             },
             {
                 "id": "e11",
@@ -85,7 +95,8 @@
                 "description": "For moderately active horses",
                 "pricePerBag": "$21.75",
                 "pricePer20": "$20.75",
-                "pricePer40": "$20.25"
+                "pricePer40": "$20.25",
+                "image": "https://i.imgur.com/aqT8RWM.png"
             },
             {
                 "id": "e12",
@@ -93,7 +104,8 @@
                 "description": "Natural source of fiber",
                 "pricePerBag": "$20.00",
                 "pricePer20": "$19.00",
-                "pricePer40": "$18.50"
+                "pricePer40": "$18.50",
+                "image": ""
             }
 ]
 

@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import feedBag from "../images/feedBag.png";
+import React from "react";
+// import feedBag from "../images/feedBag.png";
 import straightGrain from '../data/straightGrains-data.json';
 
 export default function StraightGrain() {
-  const [image] = useState(feedBag);
+  // const [image] = useState(feedBag);
   const feedCard = straightGrain.map(straightGrain => 
     <div class="card flex centered margin-15">
     <img
-      src={image}
+      src={straightGrain.image}
       class="card-img-top margin-15"
       alt="X-Cel Feed bag"
     />

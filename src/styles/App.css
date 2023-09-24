@@ -21,6 +21,11 @@ h1.header {
     font-size: 2.5rem;
 }
 
+.product {
+    font-weight: 600;
+    color: #FE0000;
+}
+
 .header {
     font-size: 1.5rem;
     text-decoration: underline;
@@ -98,4 +103,9 @@ h1.header {
 img.card-img-top {
     height: 150px;
     width: 120px;
+}
+
+.navbar {
+    font-size: 1.3rem;
+    font-weight: 800;
 }

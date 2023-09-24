@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import feedBag from "../images/feedBag.png";
+import React from "react";
+// import feedBag from "../images/feedBag.png";
 import swine from '../data/swine-data.json';
 
 export default function Swine() {
-  const [image] = useState(feedBag);
+  // const [image] = useState(feedBag);
   const feedCard = swine.map(swine => 
     <div class="card flex centered margin-15">
     <img
-      src={image}
+      src={swine.image}
       class="card-img-top margin-15"
       alt="X-Cel Feed bag"
     />

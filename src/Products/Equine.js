@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import feedBag from "../images/feedBag.png";
+import React from "react";
+// import feedBag from "../images/feedBag.png";
 import equine from '../data/equine-data.json';
 
 export default function Equine() {
-  const [image] = useState(feedBag);
+  // const [image] = useState(feedBag);
   const feedCard = equine.map(equine => 
     <div class="card flex centered margin-15">
     <img
-      src={image}
+      src={equine.image}
       class="card-img-top margin-15"
       alt="X-Cel Feed bag"
     />

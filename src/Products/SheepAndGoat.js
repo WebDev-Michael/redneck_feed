@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import feedBag from "../images/feedBag.png";
+import React from "react";
+// import feedBag from "../images/feedBag.png";
 import sheepAndGoat from '../data/sheepAndGoat-data.json';
 
 export default function SheepAndGoat() {
-  const [image] = useState(feedBag);
+  // const [image] = useState(feedBag);
   const feedCard = sheepAndGoat.map(sheepAndGoat => 
     <div class="card flex centered margin-15">
     <img
-      src={image}
+      src={sheepAndGoat.image}
       class="card-img-top margin-15"
       alt="X-Cel Feed bag"
     />

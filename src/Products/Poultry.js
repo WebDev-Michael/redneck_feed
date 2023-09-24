@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import feedBag from "../images/feedBag.png";
+import React from "react";
+// import feedBag from "../images/feedBag.png";
 import poultry from '../data/poultry-data.json';
 
 export default function Poultry() {
-  const [image] = useState(feedBag);
+  // const [image] = useState(feedBag);
   const feedCard = poultry.map(poultry => 
     <div class="card flex centered margin-15">
     <img
-      src={image}
+      src={poultry.image}
       class="card-img-top margin-15"
       alt="X-Cel Feed bag"
     />

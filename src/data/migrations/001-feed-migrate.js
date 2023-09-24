@@ -6,6 +6,7 @@ exports.up = function(knex) {
       table.decimal('pricePerBag');
       table.decimal('pricePer20');
       table.decimal('pricePer40');
+      table.string('image');
     });
   };
   

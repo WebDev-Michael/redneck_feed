@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import feedBag from "../images/feedBag.png";
+import React from "react";
+// import feedBag from "../images/feedBag.png";
 import rabbit from '../data/rabbit-data.json';
 
 export default function Rabbit() {
-  const [image] = useState(feedBag);
+  // const [image] = useState(feedBag);
   const feedCard = rabbit.map(rabbit => 
     <div class="card flex centered margin-15">
     <img
-      src={image}
+      src={rabbit.image}
       class="card-img-top margin-15"
       alt="X-Cel Feed bag"
     />

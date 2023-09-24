@@ -49,7 +49,7 @@ const Root = () => {
   return (
     <>
       <header>
-        <nav class="navbar navbar-expand-lg bg-darkgray sticky-top">
+        <nav class="navbar navbar-expand-lg bg-lightgray sticky-top">
           <div class="container-fluid">
             <Link to="/" class="navbar-brand">
               Redneck Feed
@@ -75,7 +75,7 @@ const Root = () => {
                 <li class="nav-item dropdown">
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a
-                    class="nav-link dropdown-toggle"
+                    class="nav-link dropdown-toggle products"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"

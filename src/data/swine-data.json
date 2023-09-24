@@ -6,7 +6,8 @@
                 "description": "14% protein hog feed",
                 "pricePerBag": "$21.00",
                 "pricePer20": "$20.00",
-                "pricePer40": "$19.50"
+                "pricePer40": "$19.50",
+                "image": "https://i.imgur.com/Vnmq7kg.png"
             },
             {
                 "id": "s2",
@@ -14,7 +15,8 @@
                 "description": "16% protein hog feed",
                 "pricePerBag": "$22.00",
                 "pricePer20": "$21.00",
-                "pricePer40": "$20.50"
+                "pricePer40": "$20.50",
+                "image": "https://i.imgur.com/szlzE8G.png"
             },
             {
                 "id": "s3",
@@ -22,6 +24,7 @@
                 "description": "18% protein piglet starter",
                 "pricePerBag": "$24.25",
                 "pricePer20": "$23.25",
-                "pricePer40": "$22.75"
+                "pricePer40": "$22.75",
+                "image": "https://i.imgur.com/IrSNO3Q.png"
             }
  ]
