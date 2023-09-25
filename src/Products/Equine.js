@@ -8,11 +8,11 @@ export default function Equine() {
     <div class="card flex centered margin-15">
     <img
       src={equine.image}
-      class="card-img-top margin-15"
+      class="card-img margin-15"
       alt="X-Cel Feed bag"
     />
     <div class="centered">
-      <h1 class="card-header">{equine.name}</h1>
+      <h1 class="card-header bold">{equine.name}</h1>
       <p class="card-text">
         {equine.description}
       </p>

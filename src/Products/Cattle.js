@@ -8,11 +8,11 @@ export default function Cattle() {
     <div class="card flex centered margin-15">
     <img
       src={cattle.image}
-      class="card-img-top margin-15"
+      class="margin-15 card-img"
       alt="X-Cel Feed bag"
     />
     <div class="centered">
-      <h1 class="card-header">{cattle.name}</h1>
+      <h1 class="card-header bold">{cattle.name}</h1>
       <p class="card-text">
         {cattle.description}
       </p>

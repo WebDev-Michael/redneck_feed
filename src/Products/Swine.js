@@ -8,11 +8,11 @@ export default function Swine() {
     <div class="card flex centered margin-15">
     <img
       src={swine.image}
-      class="card-img-top margin-15"
+      class="card-img margin-15"
       alt="X-Cel Feed bag"
     />
     <div class="centered">
-      <h1 class="card-header">{swine.name}</h1>
+      <h1 class="card-header bold">{swine.name}</h1>
       <p class="card-text">
         {swine.description}
       </p>

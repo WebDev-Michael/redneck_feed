@@ -6,10 +6,14 @@
     align-items: center;
     justify-content: center;
     box-shadow: 7px 7px 10px black;
+    background: #FE0000;
+    font-weight: bolder;
+    font-size: 3rem;
 }
 
 body {
     background: #F4E0B9;
+    font-family: 'Caveat', cursive;
 }
 
 a {
@@ -38,6 +42,11 @@ h1.header {
     padding: 5px;
 }
 
+.card-header {
+    font-size: 1.8rem;
+    background: white;
+}
+
 .card {
     margin: auto 15px auto 15px;
     width: 275px;
@@ -48,6 +57,11 @@ h1.header {
 
 .card:hover {
     box-shadow: 12px 12px 15px black;
+}
+
+.card-img {
+    height: 300px;
+    width: 240px;
 }
 
 .centered {
@@ -108,4 +122,5 @@ img.card-img-top {
 .navbar {
     font-size: 1.3rem;
     font-weight: 800;
+    color: black;
 }

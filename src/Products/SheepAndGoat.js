@@ -8,11 +8,11 @@ export default function SheepAndGoat() {
     <div class="card flex centered margin-15">
     <img
       src={sheepAndGoat.image}
-      class="card-img-top margin-15"
+      class="card-img margin-15"
       alt="X-Cel Feed bag"
     />
     <div class="centered">
-      <h1 class="card-header">{sheepAndGoat.name}</h1>
+      <h1 class="card-header bold">{sheepAndGoat.name}</h1>
       <p class="card-text">
         {sheepAndGoat.description}
       </p>

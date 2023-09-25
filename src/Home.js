@@ -8,7 +8,7 @@ export default function Home() {
         {/* <!-- About Section --> */}
 
         <div className="centered border padding-1515 margin-1515 bg-lightgray">
-          <h1 className="header centered">About RedNeck Feeds</h1>
+          <h1 className="header centered bold">About RedNeck Feeds</h1>
           <h3>
             Serving a 25 mile radius from the heart of Belfair. XCEL Grains delivered
             right to your doorstep at an affordable price! Delivered Monday,

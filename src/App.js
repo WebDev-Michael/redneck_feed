@@ -20,7 +20,7 @@ import {
   Link,
   Outlet,
 } from "react-router-dom";
-import headerBanner from "./images/header-banner.png";
+// import headerBanner from "./images/header-banner.png";
 
 export default function App(props) {
   const router = createBrowserRouter(
@@ -51,7 +51,7 @@ const Root = () => {
       <header>
         <nav class="navbar navbar-expand-lg bg-lightgray sticky-top">
           <div class="container-fluid">
-            <Link to="/" class="navbar-brand">
+            <Link to="/" class="navbar-brand bold">
               RedNeck Feeds LLC
             </Link>
             <button
@@ -146,11 +146,14 @@ const Root = () => {
         </nav>
         ;
         <div>
-          <img
+          {/* <img
             className="logo border"
             src={headerBanner}
             alt="Redneck Feed logo"
-          />
+          /> */}
+          <div className="border">
+            <h1 className="logo bold flex">RedNeck Feeds LLC</h1>
+          </div>
         </div>
       </header>
       <div>
