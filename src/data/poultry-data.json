@@ -16,7 +16,7 @@
                 "pricePerBag": "$25.00",
                 "pricePer20": "$24.00",
                 "pricePer40": "$23.50",
-                "image": ""
+                "image": "https://i.imgur.com/KxzEO7M.png"
             },
             {
                 "id": "p3",
@@ -70,7 +70,7 @@
                 "pricePerBag": "$24.00",
                 "pricePer20": "$23.00",
                 "pricePer40": "$22.50",
-                "image": ""
+                "image": "https://i.imgur.com/KxzEO7M.png"
             },
             {
                 "id": "p9",
