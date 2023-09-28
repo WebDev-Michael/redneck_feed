@@ -5,7 +5,7 @@ import rabbit from '../data/rabbit-data.json';
 export default function Rabbit() {
   // const [image] = useState(feedBag);
   const feedCard = rabbit.map(rabbit => 
-    <div class="card flex centered margin-15">
+    <div class="card flex centered">
     <img
       src={rabbit.image}
       class="card-img margin-15"
@@ -23,7 +23,7 @@ export default function Rabbit() {
   </div>
     );
 
-    return <div class="flex card-section border bg-lightgray">
+    return <div class="flex card-section border">
       {feedCard}
     </div>
 }

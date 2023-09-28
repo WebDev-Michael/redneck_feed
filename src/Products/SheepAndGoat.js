@@ -5,7 +5,7 @@ import sheepAndGoat from '../data/sheepAndGoat-data.json';
 export default function SheepAndGoat() {
   // const [image] = useState(feedBag);
   const feedCard = sheepAndGoat.map(sheepAndGoat => 
-    <div class="card flex centered margin-15">
+    <div class="card flex centered">
     <img
       src={sheepAndGoat.image}
       class="card-img margin-15"
@@ -23,7 +23,7 @@ export default function SheepAndGoat() {
   </div>
     );
 
-    return <div class="flex card-section border bg-lightgray">
+    return <div class="flex card-section border">
       {feedCard}
     </div>
 }

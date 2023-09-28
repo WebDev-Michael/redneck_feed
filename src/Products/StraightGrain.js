@@ -5,7 +5,7 @@ import straightGrain from '../data/straightGrains-data.json';
 export default function StraightGrain() {
   // const [image] = useState(feedBag);
   const feedCard = straightGrain.map(straightGrain => 
-    <div class="card flex centered margin-15">
+    <div class="card flex centered">
     <img
       src={straightGrain.image}
       class="card-img margin-15"
@@ -23,7 +23,7 @@ export default function StraightGrain() {
   </div>
     );
 
-    return <div class="flex card-section border bg-lightgray">
+    return <div class="flex card-section border">
       {feedCard}
     </div>
 }

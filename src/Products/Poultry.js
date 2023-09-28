@@ -5,7 +5,7 @@ import poultry from '../data/poultry-data.json';
 export default function Poultry() {
   // const [image] = useState(feedBag);
   const feedCard = poultry.map(poultry => 
-    <div class="card flex centered margin-15">
+    <div class="card flex centered">
     <img
       src={poultry.image}
       class="card-img margin-15"
@@ -23,7 +23,7 @@ export default function Poultry() {
   </div>
     );
 
-    return <div class="flex card-section border bg-lightgray">
+    return <div class="flex card-section border">
       {feedCard}
     </div>
 }

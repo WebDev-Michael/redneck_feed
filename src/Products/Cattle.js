@@ -5,7 +5,7 @@ import cattle from '../data/cattle-data.json';
 export default function Cattle() {
   // const [image] = useState(feedBag);
   const feedCard = cattle.map(cattle => 
-    <div class="card flex centered margin-15">
+    <div class="card flex centered">
     <img
       src={cattle.image}
       class="margin-15 card-img"
@@ -23,7 +23,7 @@ export default function Cattle() {
   </div>
     );
 
-    return <div class="flex card-section border bg-lightgray">
+    return <div class="flex card-section border">
       {feedCard}
     </div>
 

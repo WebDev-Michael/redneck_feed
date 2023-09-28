@@ -5,7 +5,7 @@ import equine from '../data/equine-data.json';
 export default function Equine() {
   // const [image] = useState(feedBag);
   const feedCard = equine.map(equine => 
-    <div class="card flex centered margin-15">
+    <div class="card flex centered">
     <img
       src={equine.image}
       class="card-img margin-15"
@@ -23,7 +23,7 @@ export default function Equine() {
   </div>
     );
 
-    return <div class="flex card-section border bg-lightgray">
+    return <div class="flex card-section border">
       {feedCard}
     </div>
 }

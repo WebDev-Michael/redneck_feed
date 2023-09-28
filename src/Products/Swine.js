@@ -5,7 +5,7 @@ import swine from '../data/swine-data.json';
 export default function Swine() {
   // const [image] = useState(feedBag);
   const feedCard = swine.map(swine => 
-    <div class="card flex centered margin-15">
+    <div class="card flex centered">
     <img
       src={swine.image}
       class="card-img margin-15"
@@ -23,7 +23,7 @@ export default function Swine() {
   </div>
     );
 
-    return <div class="flex card-section border bg-lightgray">
+    return <div class="flex card-section border">
       {feedCard}
     </div>
 }

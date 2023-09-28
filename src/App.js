@@ -144,15 +144,15 @@ const Root = () => {
             </div>
           </div>
         </nav>
-        ;
+       
         <div>
           {/* <img
             className="logo border"
             src={headerBanner}
             alt="Redneck Feed logo"
           /> */}
-          <div className="border">
-            <h1 className="logo bold flex">RedNeck Feeds LLC</h1>
+          <div >
+            <h1 className="border logo bold flex bg-lightgray">RedNeck Feeds LLC</h1>
           </div>
         </div>
       </header>
