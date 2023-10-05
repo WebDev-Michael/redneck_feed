@@ -13,7 +13,7 @@
 
 body {
     background: #6f6d68;
-    font-family: 'Caveat', cursive;
+    font-family: 'Caveat', serif;
 }
 
 a {
@@ -89,6 +89,13 @@ h1.header {
 .card-img {
     height: 300px;
     width: 240px;
+}
+
+.feed-header {
+    color: black;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-shadow:  2px 2px 2px lightgrey;
 }
 
 .centered {

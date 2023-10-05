@@ -23,7 +23,12 @@ export default function Equine() {
   </div>
     );
 
-    return <div class="flex card-section border">
-      {feedCard}
-    </div>
+    return (
+      <div className="centered">
+        <h2 className="bold margin-15 feed-header">Equine Feed</h2>
+        <div className="flex card-section border">
+          {feedCard}
+        </div>
+      </div>
+    );
 }
