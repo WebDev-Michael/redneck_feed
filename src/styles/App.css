@@ -17,8 +17,13 @@ body {
 }
 
 a {
-    color:#FE0000;
+    color: black;
     text-decoration: none;
+    font-weight: bolder
+}
+
+a:hover {
+    color: black;
 }
 
 h1.header {
@@ -29,7 +34,7 @@ h1.header {
     margin: 20px auto;
     width: 90vw;
     padding: 5px;
-    background: #a10000;
+    background: #c70000;
     justify-content: space-evenly;
 }
 
@@ -152,7 +157,7 @@ h1.header {
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .navbar {

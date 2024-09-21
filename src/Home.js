@@ -21,6 +21,7 @@ export default function Home() {
             <br></br> 
             <a className="phone" href="tel:(253) 313-8107">(253) 313-8107 </a>
           </h3>
+          <h4>** Areas beyond 25 mile range are subject to a minimum bag amount to order that is based on distance. Pleae call for details. </h4>
         </div>
       </main>
       
