@@ -8,6 +8,7 @@ export default function Home() {
       <div className="banner-container">
       <img src={bannerImage} alt="Redneck Feeds Logo" className="banner" />
       </div>
+      <CategorySection />
       <main>
         {/* <!-- About Section --> */}
 
@@ -22,7 +23,7 @@ export default function Home() {
           </h3>
         </div>
       </main>
-      <CategorySection />
+      
     </>
   );
 }
