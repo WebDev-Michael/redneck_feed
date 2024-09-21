@@ -4,6 +4,7 @@ import sheepAndGoat from '../data/sheepAndGoat-data.json';
 
 export default function SheepAndGoat() {
   // const [image] = useState(feedBag);
+  const bannerImg = "https://morningchores.com/wp-content/uploads/2019/11/What-to-Consider-When-Raising-Sheep-and-Goats-Together-FI.jpg"
   const feedCard = sheepAndGoat.map(sheepAndGoat => 
     <div class="card flex centered">
     <img
@@ -25,6 +26,9 @@ export default function SheepAndGoat() {
 
     return (
       <div className="centered">
+        <div className="banner-container">
+          <img src={bannerImg} alt={sheepAndGoat.name} className="banner" />
+        </div>
         <h2 className="bold margin-15 feed-header">Sheep and Goat Feed</h2>
         <div className="flex card-section border">
           {feedCard}

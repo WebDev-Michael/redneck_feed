@@ -4,6 +4,7 @@ import straightGrain from '../data/straightGrains-data.json';
 
 export default function StraightGrain() {
   // const [image] = useState(feedBag);
+  const bannerImg = "https://www.richimachinery.com/d/file/p/2021/01-19/eb917e76c69ac901da96043ffa28e8bf.jpg"
   const feedCard = straightGrain.map(straightGrain => 
     <div class="card flex centered">
     <img
@@ -25,6 +26,9 @@ export default function StraightGrain() {
 
     return (
       <div className="centered">
+        <div className="banner-container">
+          <img src={bannerImg} alt={straightGrain.name} className="banner" />
+        </div>
         <h2 className="bold margin-15 feed-header">Straight Grain Feed</h2>
         <div className="flex card-section border">
           {feedCard}

@@ -1,9 +1,13 @@
 import React from "react";
-// import feedBag from "./images/feedBag.png";
+import CategorySection from "./CategorySection";
+import bannerImage from "./images/redneck-feed-banner.png"
 
 export default function Home() {
   return (
     <>
+      <div className="banner-container">
+      <img src={bannerImage} alt="Redneck Feeds Logo" className="banner" />
+      </div>
       <main>
         {/* <!-- About Section --> */}
 
@@ -18,6 +22,7 @@ export default function Home() {
           </h3>
         </div>
       </main>
+      <CategorySection />
     </>
   );
 }

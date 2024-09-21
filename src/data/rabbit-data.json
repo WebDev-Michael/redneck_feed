@@ -1,7 +1,6 @@
  
 [
     {
-               "id": "r1",
                "name": "16% Rabbit",
                "description": "16% protein rabbit feed",
                "pricePerBag": "$22.50",
@@ -10,7 +9,6 @@
                "image": "https://i.imgur.com/ZS8IB7K.png"
            },
            {
-               "id": "r2",
                "name": "18% Rabbit",
                "description": "18% protein rabbit feed",
                "pricePerBag": "$23.75",

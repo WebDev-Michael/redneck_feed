@@ -4,6 +4,7 @@ import cattle from '../data/cattle-data.json';
 
 export default function Cattle() {
   // const [image] = useState(feedBag);
+  const bannerImg = 'https://extension.illinois.edu/sites/default/files/styles/2_1_banner/public/2023-03/GettyImages-1167064450.jpg?itok=oWyPB8UY'
   const feedCard = cattle.map(cattle => 
     <div class="card flex centered">
     <img
@@ -25,6 +26,9 @@ export default function Cattle() {
 
     return (
       <div className="centered">
+        <div className="banner-container">
+          <img src={bannerImg} alt={cattle.name} className="banner"/>
+        </div>
         <h2 className="bold margin-15 feed-header">Cattle Feed</h2>
         <div className="flex card-section border">
           {feedCard}

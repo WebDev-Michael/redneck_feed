@@ -12,7 +12,7 @@
 }
 
 body {
-    background: #6f6d68;
+    background: #a09f9d;
     font-family: 'Caveat', serif;
 }
 
@@ -29,7 +29,7 @@ h1.header {
     margin: 20px auto;
     width: 90vw;
     padding: 5px;
-    background: #820202;
+    background: #a10000;
     justify-content: space-evenly;
 }
 
@@ -65,7 +65,7 @@ h1.header {
     margin: 20px auto;
     width: 90vw;
     padding: 5px;
-    background: #820202;
+    background: #a10000;
     justify-content: space-evenly;
 }
 
@@ -77,27 +77,34 @@ h1.header {
 .card {
     margin: 15px 30px;
     width: 220px;
-    height: fit-content;
+    min-height: 240px;
     justify-content: center;
-    box-shadow: 7px 7px 10px black;
+    box-shadow: 7px 7px 10px rgb(0, 0, 0);
+}
+
+.home-card {
+    margin: 15px 30px;
+    max-width: 300px;
+    min-height: 240px;
+    justify-content: center;
+    background:white;
+    box-shadow: 7px 7px 10px rgb(0, 0, 0);
 }
 
 .card:hover {
     box-shadow: 12px 12px 15px black;
 }
 
-.card-img {
-    height: 300px;
-    width: 240px;
+.home-card:hover {
+    box-shadow: 12px 12px 15px black;
 }
 
-.card-img:hover {    
-    transition: all .2s ease-in-out;
-    transform: scale(1.7);
+.card-img {
+    padding: 10px;
 }
 
 .feed-header {
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 2.5rem;
     text-decoration: underline;
     text-shadow:  2px 2px 2px lightgrey;
@@ -114,11 +121,11 @@ h1.header {
 }
 
 .bg-darkgray {
-    background: #7D7463;
+    background: #7a7a7a;
 }
 
 .bg-lightgray {
-    background: #b6b2ac;
+    background: #a09f9d;
 }
 
 .border {
@@ -144,22 +151,40 @@ h1.header {
     padding: 15px 15px;
 }
 
-
-.dropdown-item.active {
-    background-color: #FE0000;
-}
-
 .bold {
     font-weight: 700;
-}
-
-.card-img {
-    height: 200px;
-    width: fit-content;
 }
 
 .navbar {
     font-size: 1.3rem;
     font-weight: 800;
     color: black;
+    border-bottom: solid #7a7a7a 2px;
+}
+
+.banner {
+    width: 90vw;
+    max-height: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.navbar-toggler {
+    background: #a1000043;
+}
+
+.category {
+    margin: 20px auto;
+    width: 90vw;
+    padding: 5px;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.banner-container {
+    width: 90vw;
+    max-height: 500px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
 }

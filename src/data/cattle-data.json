@@ -1,6 +1,5 @@
 [
     {
-               "id": "c1",
                "name": "16% Dairy",
                "description": "16% protein dairy cow feed",
                "pricePerBag": "$20.00",
@@ -9,7 +8,6 @@
                "image": "https://i.imgur.com/sZwrxu6.png"
            },
            {
-               "id": "c2",
                "name": "BYB",
                "description": "Barn yard buffet (all stock feed)",
                "pricePerBag": "$18.25",
@@ -18,7 +16,6 @@
                "image": "https://i.imgur.com/g7Bt1a7.png"
            },
            {
-               "id": "c3",
                "name": "Cattle Fattener",
                "description": "Used to put weight on cattle",
                "pricePerBag": "$20.50",
@@ -27,7 +24,6 @@
                "image": "https://i.imgur.com/TCQNEDy.png"
            },
            {
-               "id": "c4",
                "name": "Chris Mix",
                "description": "",
                "pricePerBag": "$20.25",

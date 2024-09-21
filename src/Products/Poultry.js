@@ -4,6 +4,7 @@ import poultry from '../data/poultry-data.json';
 
 export default function Poultry() {
   // const [image] = useState(feedBag);
+  const bannerImg = "https://live-production.wcms.abc-cdn.net.au/930544c4d01ed91830623b2919a3b227?impolicy=wcms_crop_resize&cropH=2208&cropW=3312&xPos=0&yPos=237&width=862&height=575"
   const feedCard = poultry.map(poultry => 
     <div class="card flex centered">
     <img
@@ -25,6 +26,10 @@ export default function Poultry() {
 
     return (
       <div className="centered">
+        <div className="banner-container">
+          <img src={bannerImg} alt={poultry.name} className="banner"/>
+        </div>
+
         <h2 className="bold margin-15 feed-header">Poultry Feed</h2>
         <div className="flex card-section border">
           {feedCard}

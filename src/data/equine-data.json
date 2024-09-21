@@ -1,6 +1,5 @@
 [
     {
-                "id": "e1",
                 "name": "12% Horse",
                 "description": "12% protein horse feed",
                 "pricePerBag": "$20.75",
@@ -9,7 +8,6 @@
                 "image": "https://i.imgur.com/MNX4MHI.png"
             },
             {
-                "id": "e2",
                 "name": "Alfalfa Pellets",
                 "description": "Compressed alfalfa hay",
                 "pricePerBag": "$24.25",
@@ -18,7 +16,6 @@
                 "image": "https://i.imgur.com/CiR8f6F.png"
             },
             {
-                "id": "e3",
                 "name": "Beet Pulp",
                 "description": "Pelletized beet pulp",
                 "pricePerBag": "$21.50",
@@ -27,7 +24,6 @@
                 "image": "https://i.imgur.com/dPeHMom.png"
             },
             {
-                "id": "e4",
                 "name": "Wet COB",
                 "description": "Rolled corn, oats and barley mixed with molasses",
                 "pricePerBag": "$21.25",
@@ -36,7 +32,6 @@
                 "image": "https://i.imgur.com/p1rmRrQ.png"
             },
             {
-                "id": "e5",
                 "name": "Dry COB",
                 "description": "Rolled corn, oats and barley",
                 "pricePerBag": "$21.25",
@@ -45,7 +40,6 @@
                 "image": "https://i.imgur.com/p1rmRrQ.png"
             },
             {
-                "id": "e6",
                 "name": "Mare and Foal",
                 "description": "Specialty supplement for nursing mares and foals",
                 "pricePerBag": "$21.75",
@@ -54,7 +48,6 @@
                 "image": "https://i.imgur.com/vDuFJnP.png"
             },
             {
-                "id": "e7",
                 "name": "Mountaineer",
                 "description": "High performance trail horse grain",
                 "pricePerBag": "$22.25",
@@ -63,7 +56,6 @@
                 "image": "https://i.imgur.com/P0i6SgJ.png"
             },
             {
-                "id": "e8",
                 "name": "Rice Bran",
                 "description": "Natural source of fiber and magnesium",
                 "pricePerBag": "$25.00",
@@ -72,7 +64,6 @@
                 "image": "https://i.imgur.com/KxzEO7M.png"
             },
             {
-                "id": "e9",
                 "name": "Rolled Oats",
                 "description": "Rolled oats",
                 "pricePerBag": "$23.00",
@@ -81,7 +72,6 @@
                 "image": "https://i.imgur.com/vqHiTH0.png"
             },
             {
-                "id": "e10",
                 "name": "Senior Horse",
                 "description": "Specialty feed for senior horses",
                 "pricePerBag": "$23.25",
@@ -90,7 +80,6 @@
                 "image": "https://i.imgur.com/vtpECT4.png"
             },
             {
-                "id": "e11",
                 "name": "Sterling Horse",
                 "description": "For moderately active horses",
                 "pricePerBag": "$21.75",
@@ -99,7 +88,6 @@
                 "image": "https://i.imgur.com/aqT8RWM.png"
             },
             {
-                "id": "e12",
                 "name": "Wheat Bran",
                 "description": "Natural source of fiber",
                 "pricePerBag": "$20.00",

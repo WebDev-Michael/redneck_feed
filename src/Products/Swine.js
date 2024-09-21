@@ -4,6 +4,7 @@ import swine from '../data/swine-data.json';
 
 export default function Swine() {
   // const [image] = useState(feedBag);
+  const bannerImg = "https://i.natgeofe.com/k/c2406eb2-7766-448a-9bfd-8a417c1f64c2/pig-babies-feeding.jpg"
   const feedCard = swine.map(swine => 
     <div class="card flex centered">
     <img
@@ -25,6 +26,9 @@ export default function Swine() {
 
     return (
       <div className="centered">
+        <div className="banner-container">
+          <img src={bannerImg} alt={swine.name} className="banner" />
+        </div>
         <h2 className="bold margin-15 feed-header">Swine Feed</h2>
         <div className="flex card-section border">
           {feedCard}

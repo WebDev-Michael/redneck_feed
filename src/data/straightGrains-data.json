@@ -1,7 +1,6 @@
 
 [
     {
-                "id": "g1",
                 "name": "Rolled Barley",
                 "description": "Rolled barley",
                 "pricePerBag": "$20.00",
@@ -10,7 +9,6 @@
                 "image": "https://i.imgur.com/K0RcxwH.png"
             },
             {
-                "id": "g2",
                 "name": "Rolled Corn",
                 "description": "Rolled corn",
                 "pricePerBag": "$20.00",
@@ -19,7 +17,6 @@
                 "image": "https://i.imgur.com/m6wI0jU.png"
             },
             {
-                "id": "g3",
                 "name": "Soybean Meal",
                 "description": "Natural source of protein",
                 "pricePerBag": "$28.00",
@@ -28,7 +25,6 @@
                 "image": "https://i.imgur.com/4IaUJci.png"
             },
             {
-                "id": "g4",
                 "name": "Whole Barley",
                 "description": "Whole barley",
                 "pricePerBag": "$19.75",
@@ -37,7 +33,6 @@
                 "image": "https://i.imgur.com/Vt8i1Yk.png"
             },
             {
-                "id": "g5",
                 "name": "Whole Corn",
                 "description": "Whole corn",
                 "pricePerBag": "$19.75",
@@ -46,7 +41,6 @@
                 "image": "https://i.imgur.com/lq4V45H.png"
             },
             {
-                "id": "g6",
                 "name": "Whole Oats",
                 "description": "Whole oats",
                 "pricePerBag": "$22.50",
@@ -55,7 +49,6 @@
                 "image": "https://i.imgur.com/0iE7KlC.png"
             },
             {
-                "id": "g7",
                 "name": "Whole Wheat",
                 "description": "Whole wheat",
                 "pricePerBag": "$21.25",

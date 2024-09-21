@@ -4,6 +4,7 @@ import rabbit from '../data/rabbit-data.json';
 
 export default function Rabbit() {
   // const [image] = useState(feedBag);
+  const bannerImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSkcDr4lBR1T3RPPwHjszsv4FuaZO8YyyWQ&s"
   const feedCard = rabbit.map(rabbit => 
     <div class="card flex centered">
     <img
@@ -25,6 +26,9 @@ export default function Rabbit() {
 
     return (
       <div className="centered">
+        <div className="banner-container">
+          <img src={bannerImg} alt={rabbit.name} className="banner"/>
+        </div>
         <h2 className="bold margin-15 feed-header">Rabbit Feed</h2>
         <div className="flex card-section border">
           {feedCard}

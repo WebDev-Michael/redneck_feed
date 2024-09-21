@@ -1,7 +1,6 @@
 
 [
     {
-               "id": "sg1",
                "name": "Shirley Sheep Pellet",
                "description": "16% protein sheep feed",
                "pricePerBag": "$22.50",
@@ -10,7 +9,6 @@
                "image": "https://i.imgur.com/5sqHIj6.png"
            },
            {
-               "id": "sg2",
                "name": "Goat Pellet",
                "description": "General goat feed",
                "pricePerBag": "$22.25",
@@ -19,7 +17,6 @@
                "image": "https://i.imgur.com/Z33dREG.png"
            },
            {
-               "id": "sg3",
                "name": "Sheep and Goat",
                "description": "Standardized sheep and goat feed",
                "pricePerBag": "$21.50",
