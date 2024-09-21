@@ -3,9 +3,9 @@
     {
                 "name": "All Purpose",
                 "description": "18% protein All purpose poultry feed",
-                "pricePerBag": "$21.75",
-                "pricePer20": "$20.75",
-                "pricePer40": "$20.25",
+                "pricePerBag": "$21.50",
+                "pricePer20": "$20.50",
+                "pricePer40": "$20.00",
                 "image": "https://i.imgur.com/ZzzjUJb.png"
             },
             {
@@ -51,9 +51,9 @@
             {
                 "name": "Layer Ration Complete",
                 "description": " 16% protein Egg Layer blend (pellet and crumble available)",
-                "pricePerBag": "$21.00",
-                "pricePer20": "$20.00",
-                "pricePer40": "$19.50",
+                "pricePerBag": "$20.75",
+                "pricePer20": "$19.75",
+                "pricePer40": "$19.25",
                 "image": "https://i.imgur.com/8ePJaRx.png"
             },
             {

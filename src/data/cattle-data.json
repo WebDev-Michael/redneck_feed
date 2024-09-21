@@ -30,5 +30,14 @@
                "pricePer20": "$19.25",
                "pricePer40": "$18.75",
                "image": "https://i.imgur.com/Ap1wtAZ.png"
+           },
+           {
+                "name": "Med Calf",
+                "description": "Medicated Calf Feed",
+                "pricePerBag": "$23.00",
+                "pricePer20": "$22.00",
+                "pricePer40": "$21.50",
+                "image": "https://i.imgur.com/KxzEO7M.png"
            }
+
 ]

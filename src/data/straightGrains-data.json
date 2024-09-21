@@ -1,6 +1,14 @@
 
 [
-    {
+            {
+                "name": "Pea Verde",
+                "description": "",
+                "pricePerBag": "$21.75",
+                "pricePer20": "$20.75",
+                "pricePer40": "$20.25",
+                "image": "https://i.imgur.com/KxzEO7M.png"
+            },
+            {
                 "name": "Rolled Barley",
                 "description": "Rolled barley",
                 "pricePerBag": "$20.00",

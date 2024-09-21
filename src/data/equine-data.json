@@ -2,9 +2,9 @@
     {
                 "name": "12% Horse",
                 "description": "12% protein horse feed",
-                "pricePerBag": "$20.75",
-                "pricePer20": "$19.75",
-                "pricePer40": "$19.25",
+                "pricePerBag": "$20.25",
+                "pricePer20": "$19.25",
+                "pricePer40": "$18.75",
                 "image": "https://i.imgur.com/MNX4MHI.png"
             },
             {
@@ -18,9 +18,9 @@
             {
                 "name": "Beet Pulp",
                 "description": "Pelletized beet pulp",
-                "pricePerBag": "$21.50",
-                "pricePer20": "$20.50",
-                "pricePer40": "$20.00",
+                "pricePerBag": "$23.25",
+                "pricePer20": "$21.00",
+                "pricePer40": "$20.50",
                 "image": "https://i.imgur.com/dPeHMom.png"
             },
             {
