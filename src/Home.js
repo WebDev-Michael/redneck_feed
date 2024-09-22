@@ -19,7 +19,7 @@ export default function Home() {
             right to your doorstep at an affordable price! Delivered Monday,
             Wednesday and Friday. Call or text today:
             <br></br> 
-            <a className="phone bold" href="tel:(253) 313-8107"><strong>(253) 313-8107</strong> </a>
+            <a className="phone bold" href="tel:(253) 313-8107"><span className="phone-icon">✆ </span>(253) 313-8107</a>
           </h3>
           <h4>** Areas beyond 25 mile range are subject to a minimum bag amount to order that is based on distance. Please call for details. </h4>
         </div>

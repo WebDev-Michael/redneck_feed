@@ -46,6 +46,10 @@ h1.header {
     font-weight:900;
 }
 
+.phone-icon {
+    color: rgb(0, 154, 0);
+}
+
 .product {
     font-weight: 600;
     color: #FE0000;
