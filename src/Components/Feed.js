@@ -3,12 +3,13 @@ import { useFetchData } from "../hooks";
 
 const Feed = ({ endpoint }) => {
   const { data, error } = useFetchData(endpoint);
-
+  const { products, bannerImg, categoryName } = data;
+  
   if (error) return <p>Error: {error}</p>;
 
   if (!data || data === null) return <p>Error: Data has shifted or is in another location</p>;
 
-  const { products, bannerImg, categoryName } = data;
+  
 
   const feedCard = products.map((product, index) => (
     <div className="card flex centered" key={index}>
