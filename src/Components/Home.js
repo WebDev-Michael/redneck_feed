@@ -1,6 +1,6 @@
 import React from "react";
 import CategorySection from "./CategorySection";
-import bannerImage from "./images/redneck-feed-banner.png"
+import bannerImage from "../images/redneck-feed-banner.png"
 
 export default function Home() {
   return (

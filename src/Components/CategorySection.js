@@ -1,4 +1,4 @@
-import { useFetchData } from './hooks';
+import { useFetchData } from '../hooks';
 import { Link } from 'react-router-dom';
 
 export default function CategorySection () {

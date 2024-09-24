@@ -1,7 +1,7 @@
 import "./styles/App.css";
 import React from "react";
-import Home from "./Home";
-import Footer from "./Footer";
+import Home from "./Components/Home";
+import Footer from "./Components/Footer";
 import {
   Cattle,
   Equine,
