@@ -2,7 +2,15 @@ import "./styles/App.css";
 import React from "react";
 import Home from "./Home";
 import Footer from "./Footer";
-import { Cattle, Equine, Poultry, Rabbit, Swine, SheepAndGoat, StraightGrains} from "./Components/Endpoints"
+import {
+  Cattle,
+  Equine,
+  Poultry,
+  Rabbit,
+  Swine,
+  SheepAndGoat,
+  StraightGrains
+} from "./Components/Endpoints"
 import {
   createBrowserRouter,
   createRoutesFromElements,

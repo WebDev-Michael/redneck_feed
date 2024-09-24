@@ -26,7 +26,7 @@
             "categoryCardImage": "https://richardbahr.com/wp-content/uploads/2016/06/sheep-goat.jpg?w=640"        
         },
         {
-            "categoryName": "Straight Grain",
+            "categoryName": "Straight Grains",
             "url": "/straight-grain",
             "categoryCardImage": "https://www.usnews.com/cmsmedia/ae/f4/d2ac63854616929298246a95ac29/141205-wholegrains-stock.jpg"        
         },
@@ -320,7 +320,7 @@
     ]
     },
     "straightgrains": {
-        "categoryName": "Straight Grain",
+        "categoryName": "Straight Grains",
         "bannerImg": "https://www.usnews.com/cmsmedia/ae/f4/d2ac63854616929298246a95ac29/141205-wholegrains-stock.jpg",
         "url": "/straight-grain",
         "products": [
