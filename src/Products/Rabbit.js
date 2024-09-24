@@ -1,38 +1,43 @@
 import React from "react";
-// import feedBag from "../images/feedBag.png";
-import rabbit from '../data/rabbit-data.json';
+import { useFetchData } from "../hooks";
 
 export default function Rabbit() {
-  // const [image] = useState(feedBag);
-  const bannerImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSkcDr4lBR1T3RPPwHjszsv4FuaZO8YyyWQ&s"
-  const feedCard = rabbit.map(rabbit => 
-    <div class="card flex centered">
-    <img
-      src={rabbit.image}
-      class="card-img margin-15"
-      alt="X-Cel Feed bag"
-    />
-    <div class="centered">
-      <h1 class="card-header bold">{rabbit.name}</h1>
-      <p class="card-text">
-        {rabbit.description}
-      </p>
-      <p class="bold card-text">Price per bag: {rabbit.pricePerBag}</p>
-      <p class="bold card-text">Price per 20 bags: {rabbit.pricePer20}</p>
-      <p class="bold card-text">Price per 40 bags: {rabbit.pricePer40}</p>
-    </div>
-  </div>
-    );
+  const { data, error } = useFetchData('/rabbit');
 
-    return (
+  if (error) return <p>Error: {error}</p>;
+
+  if(!data || data === null) return <p>Error: Data has shifted or is in another location</p>;
+
+  const { products, bannerImg } = data;
+
+  const feedCard = products.map((product, index) => (
+    <div className="card flex centered" key={index}>
+      <img
+        src={product.image}
+        className="margin-15 card-img"
+        alt={product.name}
+      />
       <div className="centered">
-        <div className="banner-container">
-          <img src={bannerImg} alt={rabbit.name} className="banner"/>
-        </div>
-        <h2 className="bold margin-15 feed-header">Rabbit Feed</h2>
-        <div className="flex card-section border">
-          {feedCard}
-        </div>
+        <h1 className="card-header bold">{product.name}</h1>
+        <p className="card-text">
+          {product.description}
+        </p>
+        <p className="bold card-text">Price per bag: {product.pricePerBag}</p>
+        <p className="bold card-text">Price per 20 bags: {product.pricePer20}</p>
+        <p className="bold card-text">Price per 40 bags: {product.pricePer40}</p>
       </div>
-    );
+    </div>
+  ));
+
+  return (
+    <div className="centered">
+      <div className="banner-container">
+        <img src={bannerImg} alt="Cattle Feed Banner" className="banner" />
+      </div>
+      <h2 className="bold margin-15 feed-header">Rabbit Feed</h2>
+      <div className="flex card-section border">
+        {feedCard}
+      </div>
+    </div>
+  );
 }

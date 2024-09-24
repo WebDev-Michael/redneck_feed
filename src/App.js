@@ -150,3 +150,12 @@ const Root = () => {
     </>
   );
 };
+/*
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "json-server src/data/db.json --port 5000"
+  },
+*/

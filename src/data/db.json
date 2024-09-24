@@ -1,0 +1,424 @@
+{
+    "categories": [
+        {
+            "categoryName": "Cattle",
+            "url": "/cattle",
+            "categoryCardImage": "https://www.aces.edu/wp-content/uploads/2022/05/Commercial-beef-cattle-scaled.jpg"        
+        },
+        {
+            "categoryName": "Equine",
+            "url": "/equine",
+            "categoryCardImage": "https://inmotionequine.com/wp-content/uploads/2021/05/horse.jpg"        
+        },
+        {
+            "categoryName": "Poultry",
+            "url": "/poultry",
+            "categoryCardImage": "https://i.etsystatic.com/7450813/r/il/2acdf6/3520822631/il_fullxfull.3520822631_7fsq.jpg"        
+        },
+        {
+            "categoryName": "Rabbit",
+            "url": "/rabbit",
+            "categoryCardImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Nemecky_oborovity_strakos.jpg"        
+        },
+        {
+            "categoryName": "Sheep and Goat",
+            "url": "/sheep-and-goat",
+            "categoryCardImage": "https://richardbahr.com/wp-content/uploads/2016/06/sheep-goat.jpg?w=640"        
+        },
+        {
+            "categoryName": "Straight Grain",
+            "url": "/straight-grain",
+            "categoryCardImage": "https://www.usnews.com/cmsmedia/ae/f4/d2ac63854616929298246a95ac29/141205-wholegrains-stock.jpg"        
+        },
+        {
+            "categoryName": "Swine",
+            "url": "/swine",
+            "categoryCardImage": "https://2.bp.blogspot.com/-LHZGWH0V3c0/WFqFx-sgdjI/AAAAAAAADNo/Deqjv75jnh4kfjCwuLkf9u6KrXrUCmqUQCLcB/s600/American%2BYorkshire%2BPig.jpg"       
+        }
+    ],
+    "cattle": {
+        "categoryName": "Cattle",
+        "bannerImg": "https://www.aces.edu/wp-content/uploads/2022/05/Commercial-beef-cattle-scaled.jpg",
+        "products": [
+                {
+                   "name": "16% Dairy",
+                   "description": "16% protein dairy cow feed",
+                   "pricePerBag": "$20.00",
+                   "pricePer20": "$19.00",
+                   "pricePer40": "$18.50",
+                   "image": "https://i.imgur.com/sZwrxu6.png"
+               },
+               {
+                   "name": "BYB",
+                   "description": "Barn yard buffet (all stock feed)",
+                   "pricePerBag": "$18.25",
+                   "pricePer20": "$17.25",
+                   "pricePer40": "$16.75",
+                   "image": "https://i.imgur.com/g7Bt1a7.png"
+               },
+               {
+                   "name": "Cattle Fattener",
+                   "description": "Used to put weight on cattle",
+                   "pricePerBag": "$20.50",
+                   "pricePer20": "$19.50",
+                   "pricePer40": "$19.00",
+                   "image": "https://i.imgur.com/TCQNEDy.png"
+               },
+               {
+                   "name": "Chris Mix",
+                   "description": "",
+                   "pricePerBag": "$20.25",
+                   "pricePer20": "$19.25",
+                   "pricePer40": "$18.75",
+                   "image": "https://i.imgur.com/Ap1wtAZ.png"
+               },
+               {
+                    "name": "Med Calf",
+                    "description": "Medicated Calf Feed",
+                    "pricePerBag": "$23.00",
+                    "pricePer20": "$22.00",
+                    "pricePer40": "$21.50",
+                    "image": "https://i.imgur.com/KxzEO7M.png"
+               }
+    
+    ]
+    },
+    "equine": {
+        "categoryName": "Equine",
+        "bannerImg": "https://inmotionequine.com/wp-content/uploads/2021/05/horse.jpg",
+        "url": "/equine",
+        "products": [
+                {
+                    "name": "12% Horse",
+                    "description": "12% protein horse feed",
+                    "pricePerBag": "$20.25",
+                    "pricePer20": "$19.25",
+                    "pricePer40": "$18.75",
+                    "image": "https://i.imgur.com/MNX4MHI.png"
+                },
+                {
+                    "name": "Alfalfa Pellets",
+                    "description": "Compressed alfalfa hay",
+                    "pricePerBag": "$24.25",
+                    "pricePer20": "$23.25",
+                    "pricePer40": "$22.75",
+                    "image": "https://i.imgur.com/CiR8f6F.png"
+                },
+                {
+                    "name": "Beet Pulp",
+                    "description": "Pelletized beet pulp",
+                    "pricePerBag": "$23.25",
+                    "pricePer20": "$21.00",
+                    "pricePer40": "$20.50",
+                    "image": "https://i.imgur.com/dPeHMom.png"
+                },
+                {
+                    "name": "Wet COB",
+                    "description": "Rolled corn, oats and barley mixed with molasses",
+                    "pricePerBag": "$21.25",
+                    "pricePer20": "$20.25",
+                    "pricePer40": "$19.75",
+                    "image": "https://i.imgur.com/p1rmRrQ.png"
+                },
+                {
+                    "name": "Dry COB",
+                    "description": "Rolled corn, oats and barley",
+                    "pricePerBag": "$21.25",
+                    "pricePer20": "$20.25",
+                    "pricePer40": "$19.75",
+                    "image": "https://i.imgur.com/p1rmRrQ.png"
+                },
+                {
+                    "name": "Mare and Foal",
+                    "description": "Specialty supplement for nursing mares and foals",
+                    "pricePerBag": "$21.75",
+                    "pricePer20": "$20.75",
+                    "pricePer40": "$20.25",
+                    "image": "https://i.imgur.com/vDuFJnP.png"
+                },
+                {
+                    "name": "Mountaineer",
+                    "description": "High performance trail horse grain",
+                    "pricePerBag": "$22.25",
+                    "pricePer20": "$21.25",
+                    "pricePer40": "$20.75",
+                    "image": "https://i.imgur.com/P0i6SgJ.png"
+                },
+                {
+                    "name": "Rice Bran",
+                    "description": "Natural source of fiber and magnesium",
+                    "pricePerBag": "$25.00",
+                    "pricePer20": "$24.00",
+                    "pricePer40": "$23.50",
+                    "image": "https://i.imgur.com/KxzEO7M.png"
+                },
+                {
+                    "name": "Rolled Oats",
+                    "description": "Rolled oats",
+                    "pricePerBag": "$23.00",
+                    "pricePer20": "$22.00",
+                    "pricePer40": "$21.50",
+                    "image": "https://i.imgur.com/vqHiTH0.png"
+                },
+                {
+                    "name": "Senior Horse",
+                    "description": "Specialty feed for senior horses",
+                    "pricePerBag": "$23.25",
+                    "pricePer20": "$22.25",
+                    "pricePer40": "$21.75",
+                    "image": "https://i.imgur.com/vtpECT4.png"
+                },
+                {
+                    "name": "Sterling Horse",
+                    "description": "For moderately active horses",
+                    "pricePerBag": "$21.75",
+                    "pricePer20": "$20.75",
+                    "pricePer40": "$20.25",
+                    "image": "https://i.imgur.com/aqT8RWM.png"
+                },
+                {
+                    "name": "Wheat Bran",
+                    "description": "Natural source of fiber",
+                    "pricePerBag": "$20.00",
+                    "pricePer20": "$19.00",
+                    "pricePer40": "$18.50",
+                    "image": "https://i.imgur.com/KxzEO7M.png"
+                }
+    ]
+    },
+    "poultry": {
+        "categoryName": "Poultry",
+        "bannerImg": "https://i.etsystatic.com/7450813/r/il/2acdf6/3520822631/il_fullxfull.3520822631_7fsq.jpg",
+        "url": "/poultry",
+        "products": [
+                {
+                    "name": "All Purpose",
+                    "description": "18% protein All purpose poultry feed",
+                    "pricePerBag": "$21.50",
+                    "pricePer20": "$20.50",
+                    "pricePer40": "$20.00",
+                    "image": "https://i.imgur.com/ZzzjUJb.png"
+                },
+                {
+                    "name": "Broiler Grower",
+                    "description": "21% protein medicated feed for meat birds",
+                    "pricePerBag": "$25.00",
+                    "pricePer20": "$24.00",
+                    "pricePer40": "$23.50",
+                    "image": "https://i.imgur.com/KxzEO7M.png"
+                },
+                {
+                    "name": "Chick Start",
+                    "description": "20% protein Medicated and non-medicated chick start",
+                    "pricePerBag": "$23.00",
+                    "pricePer20": "$22.00",
+                    "pricePer40": "$21.50",
+                    "image": "https://i.imgur.com/hLoksc4.png"
+                },
+                {
+                    "name": "Cracked Corn",
+                    "description": "Cracked corn",
+                    "pricePerBag": "$20.50",
+                    "pricePer20": "$19.50",
+                    "pricePer40": "$19.00",
+                    "image": "https://i.imgur.com/kLkJCoB.png"
+                },
+                {
+                    "name": "Fowl Power",
+                    "description": "Mixed grain and pellet poultry feed",
+                    "pricePerBag": "$21.75",
+                    "pricePer20": "$20.75",
+                    "pricePer40": "$20.25",
+                    "image": "https://i.imgur.com/7iykxzV.png"
+                },
+                {
+                    "name": "Game Bird",
+                    "description": "27% protein game bird feed (pellet and crumble available)",
+                    "pricePerBag": "$25.00",
+                    "pricePer20": "$24.00",
+                    "pricePer40": "$23.50",
+                    "image": "https://i.imgur.com/kmZumHM.png"
+                },
+                {
+                    "name": "Layer Ration Complete",
+                    "description": " 16% protein Egg Layer blend (pellet and crumble available)",
+                    "pricePerBag": "$20.75",
+                    "pricePer20": "$19.75",
+                    "pricePer40": "$19.25",
+                    "image": "https://i.imgur.com/8ePJaRx.png"
+                },
+                {
+                    "name": "Oyster Shell",
+                    "description": "Crushed oyster shells",
+                    "pricePerBag": "$24.00",
+                    "pricePer20": "$23.00",
+                    "pricePer40": "$22.50",
+                    "image": "https://i.imgur.com/KxzEO7M.png"
+                },
+                {
+                    "name": "Two Way Scratch",
+                    "description": "Cracked corn and barley",
+                    "pricePerBag": "$21.00",
+                    "pricePer20": "$20.00",
+                    "pricePer40": "$19.50",
+                    "image": "https://i.imgur.com/X7BCqHD.png"
+                }
+     ]
+    },
+    "rabbit": {
+        "categoryName": "Rabbit",
+        "bannerImg": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Nemecky_oborovity_strakos.jpg",
+        "url": "/rabbit",
+        "products": [
+                {
+                   "name": "16% Rabbit",
+                   "description": "16% protein rabbit feed",
+                   "pricePerBag": "$22.50",
+                   "pricePer20": "$21.50",
+                   "pricePer40": "$21.00",
+                   "image": "https://i.imgur.com/ZS8IB7K.png"
+               },
+               {
+                   "name": "18% Rabbit",
+                   "description": "18% protein rabbit feed",
+                   "pricePerBag": "$23.75",
+                   "pricePer20": "$22.75",
+                   "pricePer40": "$22.25",
+                   "image": "https://i.imgur.com/rijZXQd.png"
+               }
+    ]
+    },
+    "sheepandgoat": {
+        "categoryName": "Sheep and Goat",
+        "bannerImg": "https://richardbahr.com/wp-content/uploads/2016/06/sheep-goat.jpg?w=640",
+        "url": "/sheep-and-goat",
+        "products": [
+                {
+                   "name": "Shirley Sheep Pellet",
+                   "description": "16% protein sheep feed",
+                   "pricePerBag": "$22.50",
+                   "pricePer20": "$21.50",
+                   "pricePer40": "$21.00",
+                   "image": "https://i.imgur.com/5sqHIj6.png"
+               },
+               {
+                   "name": "Goat Pellet",
+                   "description": "General goat feed",
+                   "pricePerBag": "$22.25",
+                   "pricePer20": "$21.25",
+                   "pricePer40": "$20.75",
+                   "image": "https://i.imgur.com/Z33dREG.png"
+               },
+               {
+                   "name": "Sheep and Goat",
+                   "description": "Standardized sheep and goat feed",
+                   "pricePerBag": "$21.50",
+                   "pricePer20": "$20.50",
+                   "pricePer40": "$20.00",
+                   "image": "https://i.imgur.com/7MxJM6m.png"
+               }
+    ]
+    },
+    "straightgrains": {
+        "categoryName": "Straight Grain",
+        "bannerImg": "https://www.usnews.com/cmsmedia/ae/f4/d2ac63854616929298246a95ac29/141205-wholegrains-stock.jpg",
+        "url": "/straight-grain",
+        "products": [
+                {
+                    "name": "Pea Verde",
+                    "description": "",
+                    "pricePerBag": "$21.75",
+                    "pricePer20": "$20.75",
+                    "pricePer40": "$20.25",
+                    "image": "https://i.imgur.com/KxzEO7M.png"
+                },
+                {
+                    "name": "Rolled Barley",
+                    "description": "Rolled barley",
+                    "pricePerBag": "$20.00",
+                    "pricePer20": "$19.00",
+                    "pricePer40": "$18.50",
+                    "image": "https://i.imgur.com/K0RcxwH.png"
+                },
+                {
+                    "name": "Rolled Corn",
+                    "description": "Rolled corn",
+                    "pricePerBag": "$20.00",
+                    "pricePer20": "$19.00",
+                    "pricePer40": "$18.50",
+                    "image": "https://i.imgur.com/m6wI0jU.png"
+                },
+                {
+                    "name": "Soybean Meal",
+                    "description": "Natural source of protein",
+                    "pricePerBag": "$28.00",
+                    "pricePer20": "$27.00",
+                    "pricePer40": "$26.50",
+                    "image": "https://i.imgur.com/4IaUJci.png"
+                },
+                {
+                    "name": "Whole Barley",
+                    "description": "Whole barley",
+                    "pricePerBag": "$19.75",
+                    "pricePer20": "$18.75",
+                    "pricePer40": "$18.25",
+                    "image": "https://i.imgur.com/Vt8i1Yk.png"
+                },
+                {
+                    "name": "Whole Corn",
+                    "description": "Whole corn",
+                    "pricePerBag": "$19.75",
+                    "pricePer20": "$18.75",
+                    "pricePer40": "$18.25",
+                    "image": "https://i.imgur.com/lq4V45H.png"
+                },
+                {
+                    "name": "Whole Oats",
+                    "description": "Whole oats",
+                    "pricePerBag": "$22.50",
+                    "pricePer20": "$21.50",
+                    "pricePer40": "$21.00",
+                    "image": "https://i.imgur.com/0iE7KlC.png"
+                },
+                {
+                    "name": "Whole Wheat",
+                    "description": "Whole wheat",
+                    "pricePerBag": "$21.25",
+                    "pricePer20": "$20.25",
+                    "pricePer40": "$19.75",
+                    "image": "https://i.imgur.com/dqLz2D5.png"
+                }
+     ]
+    },
+    "swine": {
+        "categoryName": "Swine",
+        "bannerImg": "https://2.bp.blogspot.com/-LHZGWH0V3c0/WFqFx-sgdjI/AAAAAAAADNo/Deqjv75jnh4kfjCwuLkf9u6KrXrUCmqUQCLcB/s600/American%2BYorkshire%2BPig.jpg",
+        "url": "/swine",
+        "products": [
+                {
+                    "name": "14% Hog",
+                    "description": "14% protein hog feed",
+                    "pricePerBag": "$21.00",
+                    "pricePer20": "$20.00",
+                    "pricePer40": "$19.50",
+                    "image": "https://i.imgur.com/Vnmq7kg.png"
+                },
+                {
+                    "name": "16% Hog",
+                    "description": "16% protein hog feed",
+                    "pricePerBag": "$22.00",
+                    "pricePer20": "$21.00",
+                    "pricePer40": "$20.50",
+                    "image": "https://i.imgur.com/szlzE8G.png"
+                },
+                {
+                    "name": "18% Pig Starter",
+                    "description": "18% protein piglet starter",
+                    "pricePerBag": "$24.25",
+                    "pricePer20": "$23.25",
+                    "pricePer40": "$22.75",
+                    "image": "https://i.imgur.com/IrSNO3Q.png"
+                }
+     ]
+    }
+}
