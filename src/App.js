@@ -2,15 +2,7 @@ import "./styles/App.css";
 import React from "react";
 import Home from "./Home";
 import Footer from "./Footer";
-
-import Equine from "./Products/Equine";
-import Cattle from "./Products/Cattle";
-import Poultry from "./Products/Poultry";
-import Rabbit from "./Products/Rabbit";
-import Swine from "./Products/Swine";
-import SheepAndGoat from "./Products/SheepAndGoat";
-import StraightGrain from "./Products/StraightGrain";
-
+import { Cattle, Equine, Poultry, Rabbit, Swine, SheepAndGoat, StraightGrains} from "./Components/Endpoints"
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -25,13 +17,13 @@ export default function App(props) {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
-        <Route path="/equine" element={<Equine />} />
-        <Route path="/cattle" element={<Cattle />} />
-        <Route path="/poultry" element={<Poultry />} />
-        <Route path="/rabbit" element={<Rabbit />} />
-        <Route path="/swine" element={<Swine />} />
-        <Route path="/sheep-and-goat" element={<SheepAndGoat />} />
-        <Route path="/straight-grain" element={<StraightGrain />} />
+        <Route path="/equine" element={< Equine />} />
+        <Route path="/cattle" element={< Cattle />} />
+        <Route path="/poultry" element={< Poultry />} />
+        <Route path="/rabbit" element={< Rabbit />} />
+        <Route path="/swine" element={< Swine />} />
+        <Route path="/sheep-and-goat" element={< SheepAndGoat />} />
+        <Route path="/straight-grain" element={< StraightGrains />} />
       </Route>
     )
   );
@@ -150,12 +142,3 @@ const Root = () => {
     </>
   );
 };
-/*
-  "scripts": {
-    "start": "concurrently \"npm run server\" \"react-scripts start\"",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "json-server src/data/db.json --port 5000"
-  },
-*/
