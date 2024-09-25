@@ -38,7 +38,7 @@
     ],
     "cattle": {
         "categoryName": "Cattle",
-        "bannerImg": "https://www.aces.edu/wp-content/uploads/2022/05/Commercial-beef-cattle-scaled.jpg",
+        "bannerImg": "https://extension.illinois.edu/sites/default/files/styles/2_1_banner/public/2023-03/GettyImages-1167064450.jpg?itok=oWyPB8UY",
         "products": [
                 {
                    "name": "16% Dairy",
@@ -85,7 +85,7 @@
     },
     "equine": {
         "categoryName": "Equine",
-        "bannerImg": "https://inmotionequine.com/wp-content/uploads/2021/05/horse.jpg",
+        "bannerImg": "https://www.msd-animal-health.com/wp-content/uploads/sites/2/2021/12/equine-hero-img.jpg",
         "url": "/equine",
         "products": [
                 {
@@ -188,7 +188,7 @@
     },
     "poultry": {
         "categoryName": "Poultry",
-        "bannerImg": "https://i.etsystatic.com/7450813/r/il/2acdf6/3520822631/il_fullxfull.3520822631_7fsq.jpg",
+        "bannerImg": "https://live-production.wcms.abc-cdn.net.au/930544c4d01ed91830623b2919a3b227?impolicy=wcms_crop_resize&cropH=2208&cropW=3312&xPos=0&yPos=237&width=862&height=575",
         "url": "/poultry",
         "products": [
                 {
@@ -267,7 +267,7 @@
     },
     "rabbit": {
         "categoryName": "Rabbit",
-        "bannerImg": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Nemecky_oborovity_strakos.jpg",
+        "bannerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSkcDr4lBR1T3RPPwHjszsv4FuaZO8YyyWQ&s",
         "url": "/rabbit",
         "products": [
                 {
@@ -290,7 +290,7 @@
     },
     "sheepandgoat": {
         "categoryName": "Sheep and Goat",
-        "bannerImg": "https://richardbahr.com/wp-content/uploads/2016/06/sheep-goat.jpg?w=640",
+        "bannerImg": "https://morningchores.com/wp-content/uploads/2019/11/What-to-Consider-When-Raising-Sheep-and-Goats-Together-FI.jpg",
         "url": "/sheep-and-goat",
         "products": [
                 {
@@ -321,7 +321,7 @@
     },
     "straightgrains": {
         "categoryName": "Straight Grains",
-        "bannerImg": "https://www.usnews.com/cmsmedia/ae/f4/d2ac63854616929298246a95ac29/141205-wholegrains-stock.jpg",
+        "bannerImg": "https://www.richimachinery.com/d/file/p/2021/01-19/eb917e76c69ac901da96043ffa28e8bf.jpg",
         "url": "/straight-grain",
         "products": [
                 {
@@ -392,7 +392,7 @@
     },
     "swine": {
         "categoryName": "Swine",
-        "bannerImg": "https://2.bp.blogspot.com/-LHZGWH0V3c0/WFqFx-sgdjI/AAAAAAAADNo/Deqjv75jnh4kfjCwuLkf9u6KrXrUCmqUQCLcB/s600/American%2BYorkshire%2BPig.jpg",
+        "bannerImg": "https://i.natgeofe.com/k/c2406eb2-7766-448a-9bfd-8a417c1f64c2/pig-babies-feeding.jpg",
         "url": "/swine",
         "products": [
                 {
