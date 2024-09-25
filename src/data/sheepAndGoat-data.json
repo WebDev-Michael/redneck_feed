@@ -1,7 +1,9 @@
-
-[
+{
+        "categoryName": "Sheep and Goat",
+        "bannerImg": "https://morningchores.com/wp-content/uploads/2019/11/What-to-Consider-When-Raising-Sheep-and-Goats-Together-FI.jpg",
+        "products": [
     {
-               "bannerImg": "https://morningchores.com/wp-content/uploads/2019/11/What-to-Consider-When-Raising-Sheep-and-Goats-Together-FI.jpg",
+               
                "name": "Shirley Sheep Pellet",
                "description": "16% protein sheep feed",
                "pricePerBag": "$22.50",
@@ -26,3 +28,4 @@
                "image": "https://i.imgur.com/7MxJM6m.png"
            }
 ]
+}

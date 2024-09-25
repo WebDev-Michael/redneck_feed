@@ -1,7 +1,9 @@
- 
-[
+{
+        "categoryName": "Rabbit",
+        "bannerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSkcDr4lBR1T3RPPwHjszsv4FuaZO8YyyWQ&s",
+        "products": [
     {
-               "bannerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSkcDr4lBR1T3RPPwHjszsv4FuaZO8YyyWQ&s",
+               
                "name": "16% Rabbit",
                "description": "16% protein rabbit feed",
                "pricePerBag": "$22.50",
@@ -18,3 +20,4 @@
                "image": "https://i.imgur.com/rijZXQd.png"
            }
 ]
+}

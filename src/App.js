@@ -1,15 +1,17 @@
 import "./styles/App.css";
 import React from "react";
-import Home from "./Home";
-import Footer from "./Footer";
+import Home from "./Components/Home";
+import Footer from "./Components/Footer";
 
-import Equine from "./Products/Equine";
-import Cattle from "./Products/Cattle";
-import Poultry from "./Products/Poultry";
-import Rabbit from "./Products/Rabbit";
-import Swine from "./Products/Swine";
-import SheepAndGoat from "./Products/SheepAndGoat";
-import StraightGrain from "./Products/StraightGrain";
+import {
+  Swine,
+  Cattle,
+  Equine,
+  Rabbit,
+  Poultry,
+  SheepAndGoat,
+  StraightGrain
+} from "./Components/FeedDataLink";
 
 import {
   createBrowserRouter,

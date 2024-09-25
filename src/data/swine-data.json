@@ -1,7 +1,9 @@
-
-[
+{
+        "categoryName": "Swine",
+        "bannerImg": "https://i.natgeofe.com/k/c2406eb2-7766-448a-9bfd-8a417c1f64c2/pig-babies-feeding.jpg",
+        "products": [
     {
-                "bannerImg": "https://i.natgeofe.com/k/c2406eb2-7766-448a-9bfd-8a417c1f64c2/pig-babies-feeding.jpg",
+                
                 "name": "14% Hog",
                 "description": "14% protein hog feed",
                 "pricePerBag": "$21.00",
@@ -26,3 +28,4 @@
                 "image": "https://i.imgur.com/IrSNO3Q.png"
             }
  ]
+}

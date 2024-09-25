@@ -1,6 +1,9 @@
-[
+{
+        "categoryName": "Equine",
+        "bannerImg": "https://www.msd-animal-health.com/wp-content/uploads/sites/2/2021/12/equine-hero-img.jpg",
+        "products": [
+
     {
-                "bannerImg": "https://www.msd-animal-health.com/wp-content/uploads/sites/2/2021/12/equine-hero-img.jpg",
                 "name": "12% Horse",
                 "description": "12% protein horse feed",
                 "pricePerBag": "$20.25",
@@ -98,3 +101,4 @@
             }
 ]
 
+}

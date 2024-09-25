@@ -1,17 +1,10 @@
 import React from "react";
-import { useFetchData } from "../hooks";
-import 
-import cattle from '../data/cattle-data.json';
-const Feed = ({ endpoint }) => {
-  const { data, error } = useFetchData(endpoint);
-  
-  if (error) return <p>Error: {error}</p>;
 
-  if (!data || data === null) return <p>Error: Data has shifted or is in another location</p>;
-
+const Feed = ({ data }) => {
   const { products, bannerImg, categoryName } = data;
 
-  const feedCard = products.map((product, index) => (
+  const feedCard = products.map((product, index) =>(
+    
     <div className="card flex centered" key={index}>
       <img
         src={product.image}
@@ -20,7 +13,7 @@ const Feed = ({ endpoint }) => {
       />
       <div className="centered">
         <h1 className="card-header bold">{product.name}</h1>
-        <p className="card-text">{product.description}</p>
+        <p className="card-text">{product.description || 'No description available'}</p>
         <p className="bold card-text">Price per bag: {product.pricePerBag}</p>
         <p className="bold card-text">Price per 20 bags: {product.pricePer20}</p>
         <p className="bold card-text">Price per 40 bags: {product.pricePer40}</p>
