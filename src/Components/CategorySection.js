@@ -1,4 +1,4 @@
-import category from "./data/categories.json";
+import category from "../data/categories.json";
 import { Link } from 'react-router-dom';
 
 export default function CategorySection () {

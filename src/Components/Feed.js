@@ -1,6 +1,7 @@
 import React from "react";
 import { useFetchData } from "../hooks";
-
+import 
+import cattle from '../data/cattle-data.json';
 const Feed = ({ endpoint }) => {
   const { data, error } = useFetchData(endpoint);
   
